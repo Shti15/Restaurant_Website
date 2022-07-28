@@ -1,0 +1,193 @@
+body{
+  background-color: #080808;
+}
+a{
+  margin: 30px;
+}
+.container{
+  position: absolute;
+  top: 500px;
+  margin-left: 300px;
+  transform: translate(-50%,-50%);
+}
+.button{
+  position: relative;
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+  font-family: poppins;
+  font-weight:50;
+  border: 1px solid white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 1.5s;
+}
+.button:hover{
+  box-shadow: 0 2px 0 white inset,0 2px 7px 0 white;
+}
+.heading{
+  margin-left: 100px;
+  margin-top: 150px;
+  color: #f2f2f2;
+  font-family: serif;
+  font: Georgia;
+  font-size: 60px;
+  font-weight:bold;
+  max-width: 450px;
+}
+.container1{
+
+  height: 400px;
+  width: 800px;
+    position: relative;
+  background-color: white;
+  margin-top: 700px;
+  margin-left: 550px;
+
+}
+.navigation{
+
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.restaurant-name{
+  width: 20px;
+  margin-left: 100px;
+  color: #C2976A;
+  font-family: 'Allura';font-size: 22px;
+}
+.image{
+  transition: all 0.4s ease-in-out 0.4s;
+  margin-left:680px;
+  position: absolute;
+  top:200px;
+
+}
+.image:hover
+{
+    cursor: default;
+    transform: rotate(90deg) scale(1.5);
+    transition: all 1s ease-in-out 0.10s;
+}
+.story_image{
+  position: absolute;
+  top: 1073px;
+  margin-left: 50px;
+}
+p{
+  position: relative;
+  font-size: 40px;
+  top: 80px;
+  margin-left: 120px;
+  font-weight: bold;
+}
+.content{
+  position: absolute;
+
+  top:1250px;
+  left:600px;
+  margin-left: 80px;
+  color:black;
+  max-width: 600px;
+
+}
+
+.content p1{
+  font-size: 20px;
+}
+.Menu{
+  position: absolute;
+    top:1800px;
+    left:350px;
+    color:#72717A;
+    font-family: 'Allura';font-size: 20px;
+}
+.ourmenu p{
+  color:white;
+  position: relative;
+  margin-top: 320px;
+  margin-left: 290px;
+}
+.container2{
+  color:#9896A3;
+  max-width: 600px;
+  position: absolute;
+  top:1844px;
+  left:700px;
+}
+.Dish1{
+  transition: all 0.3s ease-in-out 0s;
+   position: absolute;
+   margin-top: 100px;
+   left: 300px;
+}
+.Dish1:hover
+{
+    cursor: default;
+    transform: rotate(180deg) scale(1.5);
+    transition: all 1s ease-in-out 0.10s;
+}
+.dishname p0{
+  position: absolute;
+    top:2050px;
+    left:800px;
+    color: #C2976A;
+  font-family: 'Allura';font-size: 45px;
+}
+.dishname p1{
+  position: absolute;
+    top:2400px;
+    left:350px;
+    color: #C2976A;
+  font-family: 'Allura';font-size: 90px;
+}
+.dishname p2{
+  position: absolute;
+    top:2800px;
+    left:800px;
+    color: #C2976A;
+  font-family: 'Allura';font-size: 45px;
+}
+.Dish2{
+  transition: all 0.3s ease-in-out 0s;
+  position: absolute;
+  margin-top: 350px;
+  left: 800px;
+}
+.Dish2:hover
+{
+    cursor: default;
+    transform: rotate(180deg) scale(0.9);
+    transition: all 1s ease-in-out 0.10s;
+}
+.Dish3{
+  transition: all 0.3s ease-in-out 0s;
+   position: absolute;
+   margin-top: 800px;
+   left: 300px;
+}
+.Dish3:hover
+{
+    cursor: default;
+    transform: rotate(180deg) scale(1.2);
+    transition: all 1s ease-in-out 0.1s;
+}
+.bottom{
+  position:absolute;
+  top: 3100px;
+}
+.bottom p{
+  position:absolute;
+  color:white;
+  top: 30px;
+  left:450px;
+  font-size: 80px;
+}
